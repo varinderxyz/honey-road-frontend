@@ -7,7 +7,7 @@ function Movie() {
   useEffect(() => {
     async function fetchMovies() {
       // Fetch data from the API
-      const apiKey = "6cd9a94d0c46390ddd827278d8aa62a0";
+      const apiKey = "";
       const res = await fetch(
         `https://api.themoviedb.org/3/movie/popular?api_key=${apiKey}&language=en-US`
       );
